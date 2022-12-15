@@ -1,0 +1,78 @@
+.Navbar {
+  width: 100%;
+  height: 12vh;
+}
+.navbar-up {
+  width: 100%;
+  height: 35%;
+  display: flex;
+}
+.navbar-up-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navbar-up-left img {
+  width: 24px;
+  height: 24px;
+  margin-left: 5%;
+}
+.navbar-up-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  font-size: 12px;
+}
+.nv-text {
+  margin-right: 5%;
+}
+.navbar-down {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+.nike-logo {
+  width: 15%;
+  height: 100%;
+}
+.nike-logo img {
+  width: 80px;
+  height: 100%;
+  margin-left: 11%;
+}
+.nike-product {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.nike-search {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nike-search svg {
+  width: 22px;
+  height: 22px;
+}
+.nike-src {
+  border-radius: 14px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.nike-src input {
+  border: none;
+  border-radius: 14px;
+}
